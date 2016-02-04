@@ -1,4 +1,4 @@
-package com.geekster.generic;
+package com.geekster.backend;
 
 import java.lang.reflect.ParameterizedType;
 

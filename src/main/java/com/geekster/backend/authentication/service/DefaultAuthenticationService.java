@@ -1,7 +1,6 @@
-package com.geekster.authentication;
+package com.geekster.backend.authentication.service;
 
 import javax.faces.application.FacesMessage;
-import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpSession;
@@ -10,8 +9,12 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.geekster.backend.authentication.AuthenticationBean;
+import com.geekster.backend.authentication.AuthenticationEnum;
+import com.geekster.backend.authentication.SessionBean;
+import com.geekster.backend.authentication.dao.AuthenticationDAO;
+
 @Service
-@ManagedBean(name="authenticationService")
 @SessionScoped
 public class DefaultAuthenticationService implements AuthenticationService {
 

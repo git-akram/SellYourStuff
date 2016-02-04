@@ -1,4 +1,4 @@
-package com.geekster.person;
+package com.geekster.backend.person.dao;
 
 import java.util.List;
 
@@ -8,6 +8,8 @@ import javax.persistence.PersistenceContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
+
+import com.geekster.backend.person.PersonBean;
 
 @Repository
 public class DefaultPersonDAO implements PersonDAO{

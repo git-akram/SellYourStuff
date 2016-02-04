@@ -1,4 +1,4 @@
-package com.geekster.person;
+package com.geekster.backend.person;
 
 import java.io.Serializable;
 

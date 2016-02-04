@@ -1,6 +1,8 @@
-package com.geekster.person;
+package com.geekster.backend.person.dao;
 
 import java.util.List;
+
+import com.geekster.backend.person.PersonBean;
 
 
 public interface PersonDAO {

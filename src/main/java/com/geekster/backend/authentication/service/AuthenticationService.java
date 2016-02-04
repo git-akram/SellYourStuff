@@ -1,4 +1,6 @@
-package com.geekster.authentication;
+package com.geekster.backend.authentication.service;
+
+import com.geekster.backend.authentication.AuthenticationBean;
 
 public interface AuthenticationService {
 

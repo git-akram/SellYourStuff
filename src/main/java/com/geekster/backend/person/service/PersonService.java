@@ -1,6 +1,8 @@
-package com.geekster.person;
+package com.geekster.backend.person.service;
 
 import java.util.List;
+
+import com.geekster.backend.person.PersonBean;
 
 public interface PersonService {
 	/**

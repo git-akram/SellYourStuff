@@ -1,4 +1,4 @@
-package com.geekster.authentication;
+package com.geekster.backend.authentication.dao;
 
 public interface AuthenticationDAO {
 
